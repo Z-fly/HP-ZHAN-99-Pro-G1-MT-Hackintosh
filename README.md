@@ -1,6 +1,9 @@
 # HP ZHAN 99 Pro G1 MT
 ### 求Star
 
+## 下载地址
+https://cdn.jsdelivr.net/gh/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh@main/EFI.zip
+
 ## 已知无解问题
 - WIFI无解
 - 蓝牙无解
