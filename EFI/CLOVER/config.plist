@@ -53,7 +53,7 @@
 		<key>Timeout</key>
 		<integer>10</integer>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -65,7 +65,7 @@
 		<key>KbdPrevLang</key>
 		<true/>
 		<key>Language</key>
-		<string>zh_CN:0</string>
+		<string>zh-Hant:-16899</string>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Scan</key>
@@ -89,7 +89,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>xinbao</string>
+		<string>z</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -313,8 +313,6 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>ROM</key>
-		<data>G6XRRKib</data>
 		<key>BooterConfig</key>
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
@@ -345,27 +343,28 @@
 		<key>ChassisAssetTag</key>
 		<string>iMac-Aluminum</string>
 		<key>PlatformFeature</key>
-		<string>0x22</string>
+		<string>0x00</string>
 		<key>Family</key>
 		<string>iMac</string>
+		<key>BoardSerialNumber</key>
+		<string>C02950270J9LNV9JA</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C020356004NLNV9FB</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>ProductName</key>
 		<string>iMac19,1</string>
-		<key>SmUUID</key>
-		<string>5870B536-4966-4F61-AC4C-54241F44A89B</string>
 		<key>Mobile</key>
 		<false/>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>EfiVersion</key>
 		<string>1037.100.345.0.0</string>
-		<key>SerialNumber</key>
-		<string>C02D95YYJV3Q</string>
+		<key>Memory</key>
+		<dict>
+			<key>Channels</key>
+			<integer>0</integer>
+		</dict>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>BiosReleaseDate</key>
@@ -375,12 +374,27 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>InjectSystemID</key>
-		<true/>
-		<key>CustomUUID</key>
-		<string>2E48372E-646F-45A7-8C2C-41A2FE82A41C</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
+		<key>InjectSystemID</key>
+		<true/>
+	</dict>
+	<key>Quirks</key>
+	<dict>
+		<key>SetupVirtualMap</key>
+		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
+		<key>ProvideMaxSlide</key>
+		<integer>0</integer>
+		<key>SyncRuntimePermissions</key>
+		<true/>
+		<key>AvoidRuntimeDefrag</key>
+		<true/>
+		<key>ProvideConsoleGopEnable</key>
+		<true/>
+		<key>EnableWriteUnprotector</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
