@@ -16,7 +16,7 @@ https://cdn.jsdelivr.net/gh/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh@main/EFI.zip
 | 处理器   | Intel(R) Core(TM) i5-9500  |
 | 主板   | HP 843C  |
 | 核心显卡  | Intel UHD Graphics 630 |
-| 内存     | 芝奇 DDR4 2400MHz 16GB |
+| 内存     | G.Skill DDR4 2400MHz 16GB |
 | 声卡     | Realtek ALC671 |
 | 网卡     | Realtek RTL8168/8111/8112 |
 
