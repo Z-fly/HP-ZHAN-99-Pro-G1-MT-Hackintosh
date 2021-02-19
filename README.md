@@ -4,6 +4,10 @@
 ## 下载地址
 https://raw.sevencdn.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh/master/EFI.7z
 
+## 配置文件详情
+config.plist 核显加速模式（因其品牌机主板，可能无效）
+config_UHD630.plist 无独显配置
+
 ## 已知无解问题
 - WIFI无解
 - 蓝牙无解
