@@ -1,4 +1,7 @@
 # HP ZHAN 99 Pro G1 MT
+
+[![Join the chat at https://gitter.im/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh](https://badges.gitter.im/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh.svg)](https://gitter.im/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### 求Star
 
 ## 下载地址
