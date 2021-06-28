@@ -14,6 +14,7 @@ https://www.bilibili.com/read/cv6167464/
 
 setup_var 0x6F0 0x0
 
+注意此对应的是最新版本BIOS
 ## 已知无解问题
 - WIFI无解
 - 蓝牙无解
