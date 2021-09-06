@@ -7,7 +7,7 @@
 请自行修改三码
 
 ## 下载地址
-https://raw.sevencdn.com/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh/master/EFI.7z
+https://cdn.jsdelivr.net/gh/Z-fly/HP-ZHAN-99-Pro-G1-MT-Hackintosh@master/EFI.7z
 
 ## 解锁CFG方法
 https://www.bilibili.com/read/cv6167464/
