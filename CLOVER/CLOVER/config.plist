@@ -86,10 +86,6 @@
 		<array>
 			<string>Recovery</string>
 		</array>
-		<key>Language</key>
-		<string>en-US:0</string>
-		<key>ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>z</string>
 	</dict>
@@ -101,12 +97,16 @@
 		<true/>
 		<key>DisableLinkeditJettison</key>
 		<true/>
+		<key>EnableSafeModeSlide</key>
+		<true/>
 		<key>EnableWriteUnprotector</key>
 		<true/>
 		<key>ProvideCustomSlide</key>
 		<true/>
 		<key>ProvideMaxSlide</key>
 		<integer>0</integer>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
 		<true/>
 		<key>ThirdPartyDrives</key>
@@ -116,21 +116,21 @@
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0xFEF</string>
+		<key>MLB</key>
+		<string>00000000000000000</string>
 		<key>ROM</key>
-		<data>m+W2LMqf</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>01/05/2021</string>
+		<string>12/16/2021</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.2101051926</string>
+		<string>IM191.88Z.F000.B00.2112161214</string>
 		<key>Board-ID</key>
 		<string>Mac-AA95B1DDAB278B95</string>
 		<key>BoardManufacturer</key>
@@ -148,7 +148,11 @@
 		<key>ChassisType</key>
 		<string>0xD</string>
 		<key>EfiVersion</key>
-		<string>1554.80.3.0.0</string>
+		<string>1715.80.5.0.0</string>
+		<key>ExtendedFirmwareFeatures</key>
+		<string>0x00000008FD8FF576</string>
+		<key>ExtendedFirmwareFeaturesMask</key>
+		<string>0x00000008FFDFFF7F</string>
 		<key>Family</key>
 		<string>iMac</string>
 		<key>FirmwareFeatures</key>
@@ -164,17 +168,17 @@
 		<key>ProductName</key>
 		<string>iMac19,1</string>
 		<key>SerialNumber</key>
-		<string>C02ZTCZPJV3Q</string>
+		<string>000000000000</string>
 		<key>SmUUID</key>
-		<string>06EF2105-7D6A-4F15-9C6E-4EC8042CCA9F</string>
+		<string>00000000-0000-0000-0000-000000000000</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>00000000-0000-0000-0000-000000000000</string>
 		<key>InjectKexts</key>
-		<true/>
-		<key>InjectSystemID</key>
 		<true/>
 	</dict>
 </dict>
